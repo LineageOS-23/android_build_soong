@@ -354,6 +354,7 @@ func createNoSha1HashRule() Rule {
 func createKotlinPluginRule() []Rule {
 	kotlinPluginProjectsAllowedList := []string{
 		"external/kotlinc",
+		"vendor/lineage/kotlin",
 	}
 
 	return []Rule{
