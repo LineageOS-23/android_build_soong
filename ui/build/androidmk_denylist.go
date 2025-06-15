@@ -64,6 +64,7 @@ var androidmk_allowlist []string = []string{
 	"bootable/deprecated-ota/updater/Android.mk",
         "external/ant-wireless/ant_native/Android.mk",
         "external/ant-wireless/ant_service/Android.mk",
+        "external/e2fsprogs/Android.mk",
 	"tools/vendor/google_prebuilts/arc/Android.mk",
 }
 
